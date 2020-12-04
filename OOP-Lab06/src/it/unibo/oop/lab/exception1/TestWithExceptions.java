@@ -66,7 +66,7 @@ public final class TestWithExceptions {
         } catch (NoSuchMethodException e) {
             /*
              * We expect this exception, and none other (List must exist in the
-             * classpath, but it can't be instanced being an interface.
+             * classpath, but it can't be instanced being an interface).
              * 
              * Since an empty catch block is pretty bad looking, what we can do
              * is for instance a quality check on the generated exception. In
